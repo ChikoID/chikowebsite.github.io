@@ -1,0 +1,92 @@
+body {
+	font: 16px/28px arial, sans-serif;
+	background-color: #eaeaea;
+	color: #333333
+}
+
+.container {
+	width: 800px;
+	margin: auto;
+	background-color: white;
+	border: 5px solid orange;
+}
+
+.header {
+	padding: 15px;
+	padding-bottom: 12px;
+}
+
+.header .judul {
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.header ul li {
+	display: inline-block;
+	margin-top: 10px;
+	margin-right: 5px;
+}
+
+.header a {
+	text-decoration: none;
+	color: #FF8D51;
+	font-weight: bold;
+	padding: 2px;
+}
+
+.header a:hover {
+	background-color: #FFDE1D;
+	color: #3e3e3e
+}
+
+.chiko {
+	height: 200px;
+	background-image: url(img/chiko.png);
+	background-size: cover;
+	border-top: 5px solid orange;
+	border-bottom: 5px solid orange;
+}
+
+.content {
+	padding: 15px;
+}
+
+.content h2 {
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.content .pembuat {
+	font-size: 11px;
+	margin-top: -15px;
+	font-family: arial;
+}
+
+.content .pembuat a {
+	color: #FF8D51;
+	text-decoration: none;
+}
+
+.content p {
+	font-size: 15px;
+	margin-bottom: 10px;
+	text-decoration: none;
+}
+
+.footer {
+	background-color: #333;
+	padding: 10px;
+}
+
+.footer .copy {
+	color: #eaeaea;
+	text-align: center;
+	font-size: 12px;
+
+}
+
+.content .awalan a {
+	text-decoration: none;
+	color: #FF8D51;
+}
+
